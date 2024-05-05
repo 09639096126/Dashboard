@@ -1,0 +1,11 @@
+npm install @angular/material
+
+npm install @angular/animations@latest
+
+ng g c settings --skip-tests true
+
+ng g c sublevel-menu --inline-template --inline-style --flat true
+
+ng g m products --routing --flat true
+
+ng g c products-level-three-one --module products
